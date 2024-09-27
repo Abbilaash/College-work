@@ -9,5 +9,5 @@ cd College-work
 ```
 
 # Contents
-[Data Structures Lab](https://github.com/Abbilaash/College-work/tree/main/SEM3/DS%20lab)
+[Data Structures Lab](https://github.com/Abbilaash/College-work/tree/main/SEM3/DS%20lab)<br />
 [Object Oriented Programming Lab](https://github.com/Abbilaash/College-work/tree/main/SEM3/OOP%20lab)
