@@ -87,6 +87,97 @@ arr2 = np.random.randint(0,50,size=10)
 intersect_arr = np.intersect1d(arr1,arr2)
 print(intersect_arr)
 
+# Create a 5x5 matrix with row values ranging from 0 to 4
+import numpy as np
+matrix = np.zeros((5,5))
+matrix += np.arange(5)
+print(matrix)
+
+# Find the index of the maximum value in a 1D array
+import numpy as np
+arr = np.random.random(10)
+print(arr)
+print("Index:",np.argmax(arr)," Value:",arr[np.argmax(arr)])
+
+# Normalize the values in a 1D array between 0 and 1.
+import numpy as np
+arr = np.array([2,3,5,6,17,20])
+normalized_arr = (arr - np.min(arr))/(np.max(arr) - np.min(arr))
+print(normalized_arr)
+
+# Calculate the dot product of two arrays
+import numpy as np
+arr1 = np.random.randint(10,20,size=5)
+arr2 = np.random.randint(0,10,size=5)
+print(np.dot(arr1,arr2))
+
+# Count the number of elements in an array within a specific range (20 to 30)
+import numpy as np
+arr = np.random.randint(10,50,size=20)
+count = np.sum((arr>=20) & (arr<=30))
+print(arr)
+print(count)
+
+# Find the mean of each row in a 2D array
+import numpy as np
+arr = np.random.randint(10,50,(3,3))
+print(arr)
+print(np.mean(arr,axis=1))
+
+# Create a random 4x4 matrix and extract the diagonal elements
+import numpy as np
+matrix = np.random.randint(10,50,(4,4))
+print(matrix)
+print(np.diag(matrix))
+
+# Count the number of occurrences of a specific value in an array (n=15)
+import numpy as np
+arr = np.random.randint(10,20,size=20)
+count = np.count_nonzero(arr==15)
+print(arr)
+print(count)
+
+# Replace all values in a 1D array with the mean of the array
+import numpy as np
+arr = np.random.randint(10,50,size=10)
+print(arr)
+mean = np.mean(arr)
+arr[:] = mean
+print(arr)
+
+# Find the indices of the maximum and minimum values in a 1D array
+import numpy as np
+arr = np.random.randint(10,50,size=10)
+print(arr)
+print("Minimum ind: ",np.argmin(arr))
+print("Maximum ind: ",np.argmax(arr))
+
+# Create a 2D array with 1 on the border and 0 inside
+import numpy as np
+matrix = np.ones((5,5))
+matrix[1:-1,1:-1] = 0
+print(matrix)
+
+# Find the unique values and their counts in a 1D array
+import numpy as np
+arr = np.random.randint(0,15,size=20)
+values, counts = np.unique(arr, return_counts=True)
+print("Unique:", values)
+print("Counts:", counts)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
