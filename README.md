@@ -10,4 +10,6 @@ cd College-work
 
 # Contents
 [Data Structures Lab](https://github.com/Abbilaash/College-work/tree/main/SEM3/DS%20lab)<br />
-[Object Oriented Programming Lab](https://github.com/Abbilaash/College-work/tree/main/SEM3/OOP%20lab)
+[Object Oriented Programming Lab](https://github.com/Abbilaash/College-work/tree/main/SEM3/OOP%20lab)<br />
+[Machine Learning 1 Lab](https://github.com/Abbilaash/College-work/tree/main/SEM4/Machine%20Learning%20Lab)<br />
+[Database Management System](https://github.com/Abbilaash/College-work/tree/main/SEM4/Database%20Management%20System%20Lab)
