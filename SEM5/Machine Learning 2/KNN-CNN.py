@@ -3,12 +3,16 @@ classes = ['Red','Red','Blue','Blue','Red']
 point = ['A','B','C','D','E']
 z = []
 left_out = [i for i in range(len(coord))]
+count = [0]*len(coord)
 
 def distance(a,b):
     return ((b[0]-a[0])**2+(b[1]-a[1])**2)**0.5
     
 while left_out:
     i = left_out.pop(0)
+    if count[i]>2:
+        continue
+    count[i] += 1
     if len(z)==0:
         z.append(i)
     else:
@@ -20,6 +24,8 @@ while left_out:
                 min_ind = j
         if classes[min_ind]!=classes[i]:
             z.append(i)
+        else:
+            left_out.append(i)
 
 print("Z = {",end="")
 for i in z:
