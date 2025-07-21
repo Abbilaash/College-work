@@ -14,4 +14,5 @@ cd College-work
 [Machine Learning 1 Lab](https://github.com/Abbilaash/College-work/tree/main/SEM4/Machine%20Learning%20Lab)<br />
 [Database Management System](https://github.com/Abbilaash/College-work/tree/main/SEM4/Database%20Management%20System%20Lab)<br />
 [Design and Analysis of Algorithms](https://github.com/Abbilaash/College-work/tree/main/SEM4/Design%20and%20Analysis%20of%20Algorithms)<br />
-[Computer Networks Lab](https://github.com/Abbilaash/College-work/tree/main/SEM5/Computer%20Networks%20Lab)
+[Computer Networks Lab](https://github.com/Abbilaash/College-work/tree/main/SEM5/Computer%20Networks%20Lab)<br />
+[Machine Learning 2](https://github.com/Abbilaash/College-work/tree/main/SEM5/Machine%20Learning%202)
