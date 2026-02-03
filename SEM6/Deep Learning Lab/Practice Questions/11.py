@@ -13,7 +13,7 @@ v1,v2=0.3,0.4
 w11,w12,w21,w22,b,w31,w32=0.5,0.4,0.5,0.6,0.1,0.2,0.1
 
 def activation(x):
-    return 1/(1+math.exp(-x))
+    return 1 if x>=0 else 0
 
 def train(X,y,learning_rate):
     global w11,w12,w21,w22,b,w31,w32,v1,v2
