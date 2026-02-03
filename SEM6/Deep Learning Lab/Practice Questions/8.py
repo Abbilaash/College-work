@@ -1,0 +1,36 @@
+'''
+Implement a single-layer perceptron from scratch to classify the OR gate.
+i. Inputs: (0,0), (0,1), (1,0), (1,1)
+ii. Train for 10 epochs
+iii. Print final weights and bias
+'''
+
+import math
+
+x = [(0,0), (0,1), (1,0), (1,1)]
+y = [0,1,1,1]
+w1,w2,b = 0.2,0.3,0.1
+learning_rate = 0.1
+epochs = 10
+
+def activation(x):
+    return 1/(1+math.exp(-x))
+
+def perceptron(x1,x2,w1,w2,b):
+    return activation(w1*x1+w2*x2+b)
+
+def train(x,y,learning_rate,epochs):
+    global w1,w2,b 
+    for _ in range(epochs):
+        for i in range(len(y)):
+            x1,x2 = x[i]
+            target = y[i]
+            out = perceptron(x1,x2,w1,w2,b)
+            E = target-out
+            w1=w1+learning_rate*E*x1
+            w2=w2+learning_rate*E*x2
+            b=b+learning_rate*E 
+
+print(f"Before updation: w1={w1}, w2={w2}, b={b}")
+train(x,y,learning_rate,epochs)
+print(f"After updation: w1={w1}, w2={w2}, b={b}")
