@@ -16,4 +16,5 @@ cd College-work
 [Design and Analysis of Algorithms](https://github.com/Abbilaash/College-work/tree/main/SEM4/Design%20and%20Analysis%20of%20Algorithms)<br />
 [Computer Networks Lab](https://github.com/Abbilaash/College-work/tree/main/SEM5/Computer%20Networks%20Lab)<br />
 [Machine Learning 2](https://github.com/Abbilaash/College-work/tree/main/SEM5/Machine%20Learning%202)<br />
-[Deep Learning Lab](https://github.com/Abbilaash/College-work/tree/main/SEM6/Deep%20Learning%20Lab)
+[Deep Learning Lab](https://github.com/Abbilaash/College-work/tree/main/SEM6/Deep%20Learning%20Lab) <br />
+[Big Data Lab](https://github.com/Abbilaash/College-work/tree/main/SEM7/Big%20Data%20Lab)
