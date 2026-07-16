@@ -1,0 +1,16 @@
+Size,Color,Shape,Class
+Big,Red,Circle,No
+Small,Red,Triangle,No
+Small,Red,Circle,Yes
+Big,Blue,Circle,No
+Small,Blue,Circle,Yes
+Big,Green,Square,No
+Small,Green,Square,Yes
+Big,Red,Square,No
+Small,Red,Square,Yes
+Big,Blue,Square,No
+Small,Blue,Square,Yes
+Big,Green,Circle,No
+Small,Green,Circle,Yes
+Big,Red,Triangle,No
+Small,Red,Triangle,Yes

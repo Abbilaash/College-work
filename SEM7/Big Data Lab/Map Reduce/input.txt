@@ -1,0 +1,5 @@
+Hello World
+This is a simple test file for the MapReduce job.
+It will count the number of lines, words, and characters.
+MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.
+Have a great day learning Big Data!
